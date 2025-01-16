@@ -1,4 +1,4 @@
-# Introduction 
+
 Welcome to the Data Job Analysis SQL Project!
 
 📊By leveraging SQL, this project highlights top-paying jobs, in-demand skills and helps to choose the optimal career path. 
@@ -57,6 +57,8 @@ Here is the breakdown of the top data analyst jobs in 2023:
 - **Broad Salary Spectrum:** Top 10 roles span from $184,000 to $650,000, meaning that there is notable salary potential in the field. 
 - **Diverse Employers:** SmartAsset, Meta, and AT&T offer the highest salaries. 
 - **Job Title Variety:** There are multiple options in roles, as job titles vary from Data Analyst to Director of Analytics.
+<img width="712" alt="Screenshot 2025-01-16 at 12 51 39" src="https://github.com/user-attachments/assets/a2b60831-a13a-4b49-8868-43f47e317a88" /> 
+Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results
 
 ### 2. What skills are required for top paying roles? 
 🧩To find out what skills are required for top-paying jobs, I have joined the job postings table with skills data. This provides information on what skills companies value most.  
@@ -119,7 +121,7 @@ ORDER BY
 - Tools like **SQL and Excel** remain the most wanted, implying the need for foundation in data processing and spreadsheet manipulation. 
 - **Python, Tableau and Power BI**, which are used for programming and visualization remain essential, emphasizing importance of skills in data storytelling. 
 
-### What are the top paying skills based on salary?
+### 4. What are the top paying skills based on salary?
 🧩Exploring the average salary that associated with each skill helped identify which skills are best paying. 
 
 ```sql
@@ -143,6 +145,7 @@ ORDER BY
 - The analysis helped to understand the growing need for **cloud computing expertise**, meaning that cloud proficiency is a helful skill for data analytics. 
 
 ### 5. What are the most optimal skill to learn?
+
 🧩In order to identify a startegy for job hunting and skills development, I have combined insights from demand and salary data, indicating skills that are in high demand and are top-paying. 
 
 ```sql 
